@@ -1,0 +1,30 @@
+{
+  "company": {
+    "name": "SECURXPERT TECHNOLOGIES PVT. LTD",
+    "address_line1": "3rd Floor,PRR One Towers,Plot No 59, DLF Rd, near Radisson Hotel",
+    "address_line2": "Jayabheri Enclave, Gachibowli, Hyderabad, Telangana 500032",
+    "logo_path": "C:/Users/prade/Downloads/new-logo.png"
+  },
+  "pdf": {
+    "page_size": "A4",
+    "theme_color": "#B3E5FC",
+    "default_password": "1234",
+    "margins": {
+      "top": 12,
+      "bottom": 36,
+      "left": 12,
+      "right": 12
+    }
+  },
+  "terms": [
+        "1. This payslip is confidential and intended solely for the employee named. It should not be shared, reproduced, or disclosed to unauthorized individuals or third parties.",
+        "2. The components of salary including Basic Pay, HRA, Allowances, Incentives, and Deductions are calculated as per company policy and applicable statutory regulations.",
+        "3. Income Tax deductions are made in accordance with the employee's submitted declarations and prevailing tax laws. Any discrepancies in tax-related calculations must be reported within 7 working days.",
+        "4. The net payable amount may reflect deductions for leave without pay, absenteeism, or other unpaid leave, in accordance with the company's leave policy.",
+        "5. Any variable pay, bonus, or reimbursements, if applicable, are subject to eligibility, performance evaluation, and approval from the relevant department. These are not considered fixed salary components.",
+        "6. Concerns regarding salary, deductions, or benefits must be reported to the HR or Payroll department within 5 business days from the issue date of this payslip.",
+        "7. All salary payments and deductions are made in compliance with applicable labor laws, including PF Act, ESI Act, Payment of Wages Act, and other relevant statutory frameworks.",
+        "8. In case of resignation or termination, the final settlement will be processed according to company policy and will be subject to the return of company property and clearance of all dues.",
+        "9. This payslip is digitally generated and does not require a physical signature. It is legally valid under the Information Technology Act, 2000."
+  ]
+}

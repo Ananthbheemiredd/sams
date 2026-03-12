@@ -1,0 +1,47 @@
+# app/core/permissions.py
+
+PERMISSIONS = {
+    "SUPER_ADMIN": ["ALL"],
+
+    "ADMIN": ["MONITOR_ALL", "ADD_MODIFY", "ASSIGN_ROLES"],
+
+    "ACCOUNTANT": ["FEE_TRACKING", "PAYMENT_MANAGEMENT"],
+
+    "RECEPTION": [
+        "ADMISSIONS",
+        "ENROLMENT",
+        "FEE_COLLECTION",
+        "ENTRANCE_EXAM_MANAGE"
+    ],
+
+    "HOSTEL_WARDEN": ["HOSTEL_TRACKING", "ROOM_ALLOCATION"],
+
+    "PRINCIPAL": ["ACADEMIC_MONITOR", "ADMIN_MONITOR"],
+
+    "HOD": ["ACADEMIC_MONITOR"],
+
+    "VICE_PRINCIPAL": ["ACADEMIC_MONITOR", "ADMIN_MONITOR"],
+
+    "HR": ["STAFF_MANAGEMENT", "PAYROLL", "ATTENDANCE"],
+
+    "TEACHER": [
+        "STUDENT_ATTENDANCE",
+        "EXAM_MANAGEMENT",
+        "CLASS_MONITOR",
+        "ENTRANCE_EXAM_VIEW",
+        "ENTRANCE_EXAM_MANAGE"
+    ],
+
+    "PARENT": [
+        "VIEW_STUDENT_PROFILE",
+        "VIEW_FEES",
+        "VIEW_ATTENDANCE",
+        "VIEW_EXAMS"
+    ],
+
+    "PT": [
+        "COMMUNITY_MONITOR",
+        "EVENT_MANAGEMENT",
+        "COMMUNICATION_ACCESS"
+    ],
+}
